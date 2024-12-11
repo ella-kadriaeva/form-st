@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+body {
+  background-color: #fff;
+}
+
+.students_container,
+.container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  height: 250px;
+  border: 2px solid rebeccapurple;
+}
+.container > form {
+  width: 400px;
+  margin: auto;
+  padding: 20px;
+  height: 200px;
+}
+button {
+  width: 200px;
+  margin-bottom: 50px;
+  padding: 10px;
+  display: block;
+  border-radius: 4px;
+  border: 2px solid rebeccapurple;
+  margin: auto;
+  transition: background-color 0.35s ease-in-out;
+}
+button:hover {
+  background-color: rgb(51, 153, 153);
+}
+input {
+  width: 100%;
+  font-size: 14px;
+  padding: 5px;
+  margin: 6px 0;
+  border: 2px solid rebeccapurple;
+  outline: none;
+  border-radius: 3px;
+}
+input:hover,
+input:focus {
+  border: 2px solid rgb(51, 153, 153);
+}
+.imgs_container {
+  width: 150px;
+  height: 150px;
+  background-color: azure;
+  margin: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.students_container {
+  display: flex;
+  flex-direction: column;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  padding: 10px;
+}
+.student-card {
+  width: 150px;
+  height: 150px;
+  padding: 20px;
+}
+h2 {
+  margin: 20px auto;
+}
